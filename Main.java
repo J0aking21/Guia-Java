@@ -134,5 +134,6 @@ public class Main {
             Scanner Sc=new Scanner(System.in);
             control=Sc.next().charAt(0);
         }*/
+
     }
 }

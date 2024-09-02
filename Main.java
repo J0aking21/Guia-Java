@@ -168,5 +168,6 @@ public class Main {
         cateto_b = sc_b.nextDouble();
         double hipotenusa=(cateto_a*cateto_a)+(cateto_b*cateto_b);
         System.out.println("El valor de la hipotenusa es de: "+hipotenusa+"cm");*/
+        //==========================================================================
     }
 }

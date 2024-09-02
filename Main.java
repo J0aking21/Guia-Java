@@ -1,3 +1,6 @@
+import java.math.MathContext;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args)
     {
@@ -134,6 +137,39 @@ public class Main {
             Scanner Sc=new Scanner(System.in);
             control=Sc.next().charAt(0);
         }*/
-
+        /*ejercicio 9
+        String nombre;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese el nombre: ");
+        nombre = sc.nextLine();
+        System.out.println("Buenos dias,"+ nombre);*/
+        /*ejercicio 10
+        int valor_radio;
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Ingrese el valor del radio: ");
+        valor_radio = entrada.nextInt();
+        double area=Math.PI*valor_radio*valor_radio;
+        long redondeo=Math.round(area);
+        double longitud=2*Math.PI*valor_radio;
+        long redondeo_2=Math.round(longitud);
+        System.out.println("Area del circulo:"+redondeo);
+        System.out.println("Longitud del circulo:"+redondeo_2);*/
+        /*ejercicio 11
+        int velocidad_Kmh;
+        System.out.println("Ingrese velocidad:");
+        Scanner sc = new Scanner(System.in);
+        velocidad_Kmh = sc.nextInt();
+        int velocidad_Ms=(velocidad_Kmh*1000)/3600;
+        System.out.println("La velocidad "+velocidad_Kmh+" Km/h es igual a "+velocidad_Ms+" M/s.");*/
+        /*ejercicio 12
+        double cateto_a,cateto_b;
+        System.out.println("Ingrese el valor el cateto A:");
+        Scanner sc_a = new Scanner(System.in);
+        cateto_a = sc_a.nextDouble();
+        System.out.println("Ingrese el valor el cateto B:");
+        Scanner sc_b = new Scanner(System.in);
+        cateto_b = sc_b.nextDouble();
+        double hipotenusa=(cateto_a*cateto_a)+(cateto_b*cateto_b);
+        System.out.println("El valor de la hipotenusa es de: "+hipotenusa+"cm");*/
     }
 }

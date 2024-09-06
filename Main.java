@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args)
     {
@@ -172,5 +170,86 @@ public class Main {
         double hipotenusa=Math.sqrt(hipotenusaAlCuadrado);
         long hipotenusaRedond=Math.round(hipotenusa);
         System.out.println("El valor de la hipotenusa es de: "+hipotenusaRedond+"cm");*/
+        /*ejercicio 13
+        double radio;
+        System.out.println("Calcular volumen de una esfera");
+        System.out.println("------------------------------");
+        System.out.println("Ingrese el radio de la esfera:");
+        Scanner Sc = new Scanner(System.in);
+        radio = Sc.nextDouble();
+        double volumen=(3.00/4.00)*(Math.PI)*(radio*radio*radio);
+        System.out.println("El volumen es: "+volumen);*/
+        /*ejercicio 14
+        int num;
+        System.out.println("Ingrese un numero de tres cifras: ");
+        Scanner Sc = new Scanner(System.in);
+        num = Sc.nextInt();
+        if(num>=100 && num <= 999)
+        {
+            int centenas=num/100;
+            int decenas=(num/10)%10;
+            int unidades=num%10;
+            System.out.println("El numero "+num+" descompuesto es:");
+            System.out.println("Centenas: "+centenas);
+            System.out.println("Decenas: "+decenas);
+            System.out.println("Unidades: "+unidades);
+        }
+        else
+        {
+            System.out.println("El numero no es de 3 cifras");
+        }*/
+        /*ejercicio 15
+        int num;
+        System.out.println("Ingrese un numero de cinco cifras: ");
+        Scanner Sc = new Scanner(System.in);
+        num = Sc.nextInt();
+        if(num>=10000 && num<=99999)
+        {
+            int decenasDeMillar= num/10000;
+            int milesimas= (num/1000)%10;
+            int centenas= (num/100)%10;
+            int decenas=(num/10)%10;
+            int unidades=num%10;
+            System.out.println("Las cifras impares del numero "+num+" son:");
+            if(decenasDeMillar%2!=0)
+            {
+                System.out.println("Decenas de Millar: "+decenasDeMillar);
+            }
+            if (milesimas%2!=0)
+            {
+                System.out.println("Milesimas: "+milesimas);
+            }
+            if(centenas%2!=0)
+            {
+                System.out.println("Centenas: "+centenas);
+            }
+            if (decenas%2!=0)
+            {
+                System.out.println("Decenas: "+decenas);
+            }
+            if (unidades%2!=0)
+            {
+                System.out.println("Unidades: "+unidades);
+            }
+        }*/
+        /*ejercicio 16
+        int H,M,S;
+        System.out.println("Ingrese la hora en horas, minutos y segundos:");
+        Scanner hora = new Scanner(System.in);
+        Scanner minuto = new Scanner(System.in);
+        Scanner segundo = new Scanner(System.in);
+        H = hora.nextInt();
+        M = minuto.nextInt();
+        S = segundo.nextInt();
+        if((H>=0 && H<=23)&&(M>=0 && M<=59) && (S>=0 && S<=59))
+        {
+            System.out.println("La hora "+H+"hr:"+M+"min:"+S+"seg, es valida");
+        }
+        else
+        {
+            System.out.println("La hora "+H+"hr:"+M+"min:"+S+"seg, no es valida");
+        }*/
+        //ejercicio 17
+//        Empleado1 emp = new Empleado1();
     }
 }

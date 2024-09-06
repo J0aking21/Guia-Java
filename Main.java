@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args)
     {
@@ -166,8 +168,9 @@ public class Main {
         System.out.println("Ingrese el valor el cateto B:");
         Scanner sc_b = new Scanner(System.in);
         cateto_b = sc_b.nextDouble();
-        double hipotenusa=(cateto_a*cateto_a)+(cateto_b*cateto_b);
-        System.out.println("El valor de la hipotenusa es de: "+hipotenusa+"cm");*/
-        //==========================================================================
+        double hipotenusaAlCuadrado=(cateto_a*cateto_a)+(cateto_b*cateto_b);
+        double hipotenusa=Math.sqrt(hipotenusaAlCuadrado);
+        long hipotenusaRedond=Math.round(hipotenusa);
+        System.out.println("El valor de la hipotenusa es de: "+hipotenusaRedond+"cm");*/
     }
 }
